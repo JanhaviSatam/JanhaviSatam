@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(37, 35, 35);
+    
+}
+ ul li  {
+    color: rgb(255, 255, 255);
+   
+   
+}
+li{
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: large;
+   
+}
+
+.logo_1{
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 30px;
+    height: 30px;
+}
+
+
+
+.img_slider{
+    height: 600px;
+    width: 1400px;
+    margin-left: 60px;
+    background-image: url("/img4/1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 10s linear infinite;
+}
+
+@keyframes changeImage{
+0%{
+    background-image:url(/img4/1.jpg);
+}
+25%{
+    background-image:url(/img4/2.jpg);
+}
+50%{
+    background-image:url(/img4/3.jpg);
+}
+
+
+}
+
+.material-icons{
+    color: white;
+    margin-left: 720PX;
+}
+
+
+
+
+   
+

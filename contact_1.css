@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(37, 35, 35);
+    
+}
+ ul li  {
+    color: rgb(255, 255, 255);
+   
+   
+}
+li{
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: large;
+   
+}
+
+.logo_1{
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 30px;
+    height: 30px;
+}
+
+.material-icons{
+    color: white;
+    margin-left: 720PX;
+}
+.contact_container_center{
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+    border: solid 0px rgb(104, 43, 43); 
+}
+.map_section{
+    width: 696px;
+    float: left;
+    height: 400px;
+    border: solid 0px black;
+ 
+}
+.form_section{
+    width: 500px;
+    float: left;
+    height: 400px;
+    border: solid 0px black;
+}
+.center_heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 30px;
+}
